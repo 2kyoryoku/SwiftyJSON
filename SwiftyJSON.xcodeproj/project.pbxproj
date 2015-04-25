@@ -10,6 +10,7 @@
 		030B6CCE1A6E16E900C2D4F1 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 030B6CC31A6E16E800C2D4F1 /* SwiftyJSON.framework */; };
 		030B6CDD1A6E172B00C2D4F1 /* SwiftyJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E4FEFE019575BE100351305 /* SwiftyJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		030B6CDE1A6E172B00C2D4F1 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8491E1D19CD6DAE00CCFAE6 /* SwiftyJSON.swift */; };
+		084973A31AEC1EE3006CC942 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 084973A21AEC1EE3006CC942 /* Info.plist */; };
 		2E4FEFE119575BE100351305 /* SwiftyJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E4FEFE019575BE100351305 /* SwiftyJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2E4FEFE719575BE100351305 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E4FEFDB19575BE100351305 /* SwiftyJSON.framework */; };
 		A819C49719E1A7DD00ADCC3D /* LiteralConvertibleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A819C49619E1A7DD00ADCC3D /* LiteralConvertibleTests.swift */; };
@@ -50,8 +51,8 @@
 		030B6CC31A6E16E800C2D4F1 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		030B6CCD1A6E16E900C2D4F1 /* SwiftyJSON OSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftyJSON OSXTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		030B6CDC1A6E171D00C2D4F1 /* Info-OSX.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-OSX.plist"; sourceTree = "<group>"; };
+		084973A21AEC1EE3006CC942 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E4FEFDB19575BE100351305 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2E4FEFDF19575BE100351305 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E4FEFE019575BE100351305 /* SwiftyJSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftyJSON.h; sourceTree = "<group>"; };
 		2E4FEFE619575BE100351305 /* SwiftyJSONTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyJSONTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A819C49619E1A7DD00ADCC3D /* LiteralConvertibleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiteralConvertibleTests.swift; sourceTree = "<group>"; };
@@ -139,8 +140,8 @@
 		2E4FEFDE19575BE100351305 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				084973A21AEC1EE3006CC942 /* Info.plist */,
 				030B6CDC1A6E171D00C2D4F1 /* Info-OSX.plist */,
-				2E4FEFDF19575BE100351305 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -331,6 +332,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				084973A31AEC1EE3006CC942 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,7 +488,7 @@
 			};
 			name = Release;
 		};
-		083810F01A892E32007A5D85 /* Alpha */ = {
+		084973A41AEC1F3B006CC942 /* Alpha */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -533,7 +535,7 @@
 			};
 			name = Alpha;
 		};
-		083810F11A892E32007A5D85 /* Alpha */ = {
+		084973A51AEC1F3B006CC942 /* Alpha */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
@@ -551,7 +553,7 @@
 			};
 			name = Alpha;
 		};
-		083810F21A892E32007A5D85 /* Alpha */ = {
+		084973A61AEC1F3B006CC942 /* Alpha */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
@@ -569,7 +571,7 @@
 			};
 			name = Alpha;
 		};
-		083810F31A892E32007A5D85 /* Alpha */ = {
+		084973A71AEC1F3B006CC942 /* Alpha */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -592,7 +594,7 @@
 			};
 			name = Alpha;
 		};
-		083810F41A892E32007A5D85 /* Alpha */ = {
+		084973A81AEC1F3B006CC942 /* Alpha */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -612,7 +614,7 @@
 			};
 			name = Alpha;
 		};
-		083810F51A892E3A007A5D85 /* Beta */ = {
+		084973A91AEC1F42006CC942 /* Beta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -652,7 +654,7 @@
 			};
 			name = Beta;
 		};
-		083810F61A892E3A007A5D85 /* Beta */ = {
+		084973AA1AEC1F42006CC942 /* Beta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
@@ -670,7 +672,7 @@
 			};
 			name = Beta;
 		};
-		083810F71A892E3A007A5D85 /* Beta */ = {
+		084973AB1AEC1F42006CC942 /* Beta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
@@ -684,7 +686,7 @@
 			};
 			name = Beta;
 		};
-		083810F81A892E3A007A5D85 /* Beta */ = {
+		084973AC1AEC1F42006CC942 /* Beta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -705,7 +707,7 @@
 			};
 			name = Beta;
 		};
-		083810F91A892E3A007A5D85 /* Beta */ = {
+		084973AD1AEC1F42006CC942 /* Beta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -885,9 +887,9 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				030B6CD71A6E16E900C2D4F1 /* Debug */,
-				083810F31A892E32007A5D85 /* Alpha */,
+				084973A71AEC1F3B006CC942 /* Alpha */,
 				030B6CD81A6E16E900C2D4F1 /* Release */,
-				083810F81A892E3A007A5D85 /* Beta */,
+				084973AC1AEC1F42006CC942 /* Beta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -896,9 +898,9 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				030B6CDA1A6E16E900C2D4F1 /* Debug */,
-				083810F41A892E32007A5D85 /* Alpha */,
+				084973A81AEC1F3B006CC942 /* Alpha */,
 				030B6CDB1A6E16E900C2D4F1 /* Release */,
-				083810F91A892E3A007A5D85 /* Beta */,
+				084973AD1AEC1F42006CC942 /* Beta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -907,9 +909,9 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2E4FEFEF19575BE100351305 /* Debug */,
-				083810F01A892E32007A5D85 /* Alpha */,
+				084973A41AEC1F3B006CC942 /* Alpha */,
 				2E4FEFF019575BE100351305 /* Release */,
-				083810F51A892E3A007A5D85 /* Beta */,
+				084973A91AEC1F42006CC942 /* Beta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -918,9 +920,9 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2E4FEFF219575BE100351305 /* Debug */,
-				083810F11A892E32007A5D85 /* Alpha */,
+				084973A51AEC1F3B006CC942 /* Alpha */,
 				2E4FEFF319575BE100351305 /* Release */,
-				083810F61A892E3A007A5D85 /* Beta */,
+				084973AA1AEC1F42006CC942 /* Beta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -929,9 +931,9 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2E4FEFF519575BE100351305 /* Debug */,
-				083810F21A892E32007A5D85 /* Alpha */,
+				084973A61AEC1F3B006CC942 /* Alpha */,
 				2E4FEFF619575BE100351305 /* Release */,
-				083810F71A892E3A007A5D85 /* Beta */,
+				084973AB1AEC1F42006CC942 /* Beta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

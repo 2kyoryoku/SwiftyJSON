@@ -22,15 +22,15 @@
          </BuildActionEntry>
          <BuildActionEntry
             buildForTesting = "YES"
-            buildForRunning = "NO"
+            buildForRunning = "YES"
             buildForProfiling = "NO"
             buildForArchiving = "NO"
-            buildForAnalyzing = "NO">
+            buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2E4FEFE519575BE100351305"
-               BuildableName = "SwiftyJSON iOS Tests.xctest"
-               BlueprintName = "SwiftyJSON iOS Tests"
+               BuildableName = "SwiftyJSONTests.xctest"
+               BlueprintName = "SwiftyJSONTests"
                ReferencedContainer = "container:SwiftyJSON.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -47,8 +47,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2E4FEFE519575BE100351305"
-               BuildableName = "SwiftyJSON iOS Tests.xctest"
-               BlueprintName = "SwiftyJSON iOS Tests"
+               BuildableName = "SwiftyJSONTests.xctest"
+               BlueprintName = "SwiftyJSONTests"
                ReferencedContainer = "container:SwiftyJSON.xcodeproj">
             </BuildableReference>
          </TestableReference>
